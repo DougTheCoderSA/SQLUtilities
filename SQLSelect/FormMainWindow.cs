@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SQLSelect
 {
-    public partial class Form1 : Form
+    public partial class FormMainWindow : Form
     {
-        public Form1()
+        public FormMainWindow()
         {
             InitializeComponent();
         }
