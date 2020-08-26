@@ -16,5 +16,10 @@ namespace SQLSelect
         {
             InitializeComponent();
         }
+
+        private void FormMainWindow_Load(object sender, EventArgs e)
+        {
+            Text = "SQL Select - Built " + Properties.Resources.BuildDate;
+        }
     }
 }
